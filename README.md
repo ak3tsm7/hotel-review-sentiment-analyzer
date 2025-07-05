@@ -1,31 +1,35 @@
 # 🏨 Hotel Review Sentiment Analyzer
 
-This project uses IBM Watsonx.ai to perform sentiment analysis and extract service-related aspects from hotel customer reviews. It helps hotel managers gain actionable insights from textual feedback.
+This project uses **IBM Watsonx.ai** to analyze hotel customer reviews, classify the **sentiment** (Positive, Neutral, or Negative), and extract 2–3 relevant service-related **topics** (e.g., cleanliness, staff, food, check-in). It provides actionable insights to help hotel managers improve customer satisfaction.
 
 ---
 
-## 📄 Project Documentation
+## 📌 Project Objectives
 
-All details including:
-- Project overview and objectives
-- Tools & technologies used
-- Methodology (with flowchart)
-- Code snippets with explanation
-- Output screenshots
-- Final conclusions
-
-…are included in the following report:
-
-📎 [Hotel_Review_Sentiment_Analyzer_Project.docx](./Hotel_Review_Sentiment_Analyzer_Project.docx)
+- Perform **sentiment analysis** on hotel reviews using a foundation model.
+- Extract key service aspects like **cleanliness, staff, food, location** using prompt engineering.
+- Automate the pipeline using **IBM Watsonx.ai** and **Cloud Object Storage**.
 
 ---
 
-## 🧠 Powered By
+## 🛠️ Tools & Technologies
 
-- IBM Watsonx.ai (`granite-13b-instruct-v2`)
-- IBM Cloud Object Storage (COS)
-- Python (Pandas, Regex)
-- Jupyter
+- 🧠 IBM Watsonx.ai (`granite-13b-instruct-v2`)
+- ☁️ IBM Cloud Object Storage (COS)
+- 🐍 Python (Pandas, Regex)
+- 📊 Jupyter Notebook
+
+---
+
+## 📁 Files Included
+
+| File Name | Description |
+|-----------|-------------|
+| `Hotel_Review_Sentiment_Analyzer_Project.docx` | Full project documentation |
+| `Hotel Review Sentiment Analyzer.ipynb` |  source code |
+| `Corrected_Hotel_Review_Flowchart.png` | Visual methodology diagram |
+| `hotel_reviews_input.csv` | input data set |
+| `hotel_review_sentiment_output.csv` | Model predictions on sample reviews |
 
 ---
 
